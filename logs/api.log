@@ -1,0 +1,18 @@
+2026-01-07 14:10:27 [INFO]: Register request: mallesh@test.com
+2026-01-07 14:10:27 [INFO]: Register attempt for email: mallesh@test.com
+2026-01-07 14:10:27 [WARN]: User already exists: mallesh@test.com
+2026-01-07 14:10:27 [ERROR]: Register DB Error: User already exists
+2026-01-07 14:10:27 [ERROR]: Register failed: User already exists
+2026-01-07 14:10:37 [INFO]: Register request: mallesh@test1.com
+2026-01-07 14:10:37 [INFO]: Register attempt for email: mallesh@test1.com
+2026-01-07 14:10:38 [INFO]: User registered successfully: mallesh@test1.com
+2026-01-07 15:47:25 [INFO]: Register request: mallesh@test.com
+2026-01-07 15:47:25 [INFO]: Register attempt for email: mallesh@test.com
+2026-01-07 15:47:26 [WARN]: User already exists: mallesh@test.com
+2026-01-07 15:47:26 [ERROR]: Register DB Error: User already exists
+2026-01-07 15:47:26 [ERROR]: Register failed: User already exists
+2026-01-07 15:47:27 [INFO]: Register request: mallesh@test.com
+2026-01-07 15:47:27 [INFO]: Register attempt for email: mallesh@test.com
+2026-01-07 15:47:27 [WARN]: User already exists: mallesh@test.com
+2026-01-07 15:47:27 [ERROR]: Register DB Error: User already exists
+2026-01-07 15:47:27 [ERROR]: Register failed: User already exists
