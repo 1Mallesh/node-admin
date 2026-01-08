@@ -6,7 +6,7 @@ import dotenv from "dotenv";
 import routes from "./routes"; // 👈 index.ts
 import { setupSwagger } from "./swagger/swagger";
 import logger from "./utils/logger.ts";
-
+import { errorHandler } from "./middlewares/error.middleware";
 dotenv.config();
 
 const app = express();
@@ -16,6 +16,7 @@ setupSwagger(app);
 
 /* -------------------- Middlewares -------------------- */
 app.use(cors());
+app.use(errorHandler);
 app.use(express.json({ limit: "50mb" }));
 app.use(express.urlencoded({ limit: "50mb", extended: true }));
 
