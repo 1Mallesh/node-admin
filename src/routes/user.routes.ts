@@ -3,10 +3,6 @@ import * as userController from "../controllers/user.controller";
 
 const router = Router();
 
-router.post("/register", userController.register);
-router.post("/login", userController.login);
-router.post("/forgot-password", userController.forgotPassword);
-
 /**
  * @swagger
  * /api/user/register:
@@ -26,19 +22,21 @@ router.post("/forgot-password", userController.forgotPassword);
  *             properties:
  *               firstName:
  *                 type: string
- *                 example: Mallesh
+ *                 example: nani
  *               lastName:
  *                 type: string
- *                 example: N
+ *                 example: kumar
  *               email:
  *                 type: string
- *                 example: mallesh@test.com
+ *                 example: nani@test.com
  *               password:
  *                 type: string
  *                 example: 123456
  *     responses:
  *       201:
  *         description: User registered successfully
+ *       400:
+ *         description: Bad request or user already exists
  */
 router.post("/register", userController.register);
 
@@ -60,13 +58,15 @@ router.post("/register", userController.register);
  *             properties:
  *               email:
  *                 type: string
- *                 example: mallesh@test.com
+ *                 example: nani@test.com
  *               password:
  *                 type: string
  *                 example: 123456
  *     responses:
  *       200:
  *         description: Login successful
+ *       401:
+ *         description: Invalid credentials
  */
 router.post("/login", userController.login);
 
@@ -87,10 +87,12 @@ router.post("/login", userController.login);
  *             properties:
  *               email:
  *                 type: string
- *                 example: mallesh@test.com
+ *                 example: nani@test.com
  *     responses:
  *       200:
  *         description: Password reset email sent
+ *       404:
+ *         description: User not found
  */
 router.post("/forgot-password", userController.forgotPassword);
 

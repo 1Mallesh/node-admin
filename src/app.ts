@@ -16,12 +16,14 @@ setupSwagger(app);
 
 /* -------------------- Middlewares -------------------- */
 app.use(cors());
-app.use(errorHandler);
 app.use(express.json({ limit: "50mb" }));
 app.use(express.urlencoded({ limit: "50mb", extended: true }));
 
 /* -------------------- Use index.ts for ALL routes -------------------- */
 app.use("/api", routes); // ✅ ONLY THIS
+app.use(errorHandler);
+
+
 
 app.get("/", (req, res) => {
   res.send("Server is running");

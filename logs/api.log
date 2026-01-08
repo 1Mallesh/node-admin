@@ -11,3 +11,25 @@
 2026-01-08 11:24:55 [INFO]: 🚀 Server running on port 5000
 2026-01-08 11:30:46 [INFO]: 🚀 Server running on port 5000
 2026-01-08 11:31:28 [INFO]: 🚀 Server running on port 5000
+2026-01-08 11:38:48 [INFO]: 🚀 Server running on port 5000
+2026-01-08 11:38:50 [INFO]: 🚀 Server running on port 5000
+2026-01-08 11:39:00 [INFO]: 🚀 Server running on port 5000
+2026-01-08 11:45:34 [INFO]: 🚀 Server running on port 5000
+2026-01-08 11:45:42 [INFO]: 🚀 Server running on port 5000
+2026-01-08 11:46:29 [INFO]: 🚀 Server running on port 5000
+2026-01-08 11:47:14 [INFO]: 🚀 Server running on port 5000
+2026-01-08 11:47:15 [INFO]: Register request: nani@test.com
+2026-01-08 11:47:15 [INFO]: Register attempt for email: nani@test.com
+2026-01-08 11:47:15 [INFO]: User registered successfully: nani@test.com
+2026-01-08 11:54:50 [INFO]: Register request: nani@test.com
+2026-01-08 11:54:50 [INFO]: Register attempt for email: nani@test.com
+2026-01-08 11:54:50 [WARN]: User already exists: nani@test.com
+2026-01-08 11:54:50 [ERROR]: Register DB Error: User already exists
+2026-01-08 11:54:50 [ERROR]: User already exists
+2026-01-08 11:55:09 [INFO]: Login attempt for email: nani@test.com
+2026-01-08 11:55:09 [INFO]: Login success for email: nani@test.com
+2026-01-08 11:55:29 [INFO]: Forgot password request for email: nani@test.com
+2026-01-08 11:55:30 [ERROR]: Forgot Password Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2a3e3c47303sm66820645ad.24 - gsmtp
+2026-01-08 11:55:30 [ERROR]: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2a3e3c47303sm66820645ad.24 - gsmtp
