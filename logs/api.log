@@ -1,39 +1,13 @@
-2026-01-07 14:10:27 [INFO]: Register request: mallesh@test.com
-2026-01-07 14:10:27 [INFO]: Register attempt for email: mallesh@test.com
-2026-01-07 14:10:27 [WARN]: User already exists: mallesh@test.com
-2026-01-07 14:10:27 [ERROR]: Register DB Error: User already exists
-2026-01-07 14:10:27 [ERROR]: Register failed: User already exists
-2026-01-07 14:10:37 [INFO]: Register request: mallesh@test1.com
-2026-01-07 14:10:37 [INFO]: Register attempt for email: mallesh@test1.com
-2026-01-07 14:10:38 [INFO]: User registered successfully: mallesh@test1.com
-2026-01-07 15:47:25 [INFO]: Register request: mallesh@test.com
-2026-01-07 15:47:25 [INFO]: Register attempt for email: mallesh@test.com
-2026-01-07 15:47:26 [WARN]: User already exists: mallesh@test.com
-2026-01-07 15:47:26 [ERROR]: Register DB Error: User already exists
-2026-01-07 15:47:26 [ERROR]: Register failed: User already exists
-2026-01-07 15:47:27 [INFO]: Register request: mallesh@test.com
-2026-01-07 15:47:27 [INFO]: Register attempt for email: mallesh@test.com
-2026-01-07 15:47:27 [WARN]: User already exists: mallesh@test.com
-2026-01-07 15:47:27 [ERROR]: Register DB Error: User already exists
-2026-01-07 15:47:27 [ERROR]: Register failed: User already exists
-2026-01-07 17:47:22 [INFO]: 🚀 Server running on port 5000
-2026-01-07 17:47:30 [INFO]: 🚀 Server running on port 5000
-2026-01-07 17:49:22 [INFO]: 🚀 Server running on port 5000
-2026-01-07 17:49:22 [INFO]: 🚀 Server running on port 5000
-2026-01-07 17:51:42 [INFO]: 🚀 Server running on port 5000
-2026-01-07 17:51:42 [INFO]: 🚀 Server running on port 5000
-2026-01-07 17:51:50 [INFO]: 🚀 Server running on port 5000
-2026-01-07 17:51:51 [INFO]: 🚀 Server running on port 5000
-2026-01-07 17:52:24 [INFO]: 🚀 Server running on port 5000
-2026-01-07 17:52:24 [INFO]: 🚀 Server running on port 5000
-2026-01-07 17:53:12 [INFO]: 🚀 Server running on port 5000
-2026-01-07 17:53:12 [INFO]: 🚀 Server running on port 5000
-2026-01-07 17:53:51 [INFO]: 🚀 Server running on port 5000
-2026-01-07 17:53:51 [INFO]: 🚀 Server running on port 5000
-2026-01-07 18:37:51 [INFO]: 🚀 Server running on port 5000
-2026-01-07 18:37:51 [INFO]: 🚀 Server running on port 5000
-2026-01-07 18:38:57 [INFO]: 🚀 Server running on port 5000
-2026-01-07 18:38:57 [INFO]: 🚀 Server running on port 5000
-2026-01-08 10:17:50 [INFO]: 🚀 Server running on port 5000
-2026-01-08 10:18:56 [INFO]: 🚀 Server running on port 5000
-2026-01-08 10:20:20 [INFO]: 🚀 Server running on port 5000
+2026-01-08 10:55:02 [INFO]: 🚀 Server running on port 5000
+2026-01-08 10:56:03 [INFO]: 🚀 Server running on port 5000
+2026-01-08 10:56:28 [INFO]: 🚀 Server running on port 5000
+2026-01-08 10:56:38 [INFO]: 🚀 Server running on port 5000
+2026-01-08 10:56:49 [INFO]: 🚀 Server running on port 5000
+2026-01-08 11:01:34 [INFO]: 🚀 Server running on port 5000
+2026-01-08 11:01:37 [INFO]: 🚀 Server running on port 5000
+2026-01-08 11:01:50 [INFO]: 🚀 Server running on port 5000
+2026-01-08 11:02:05 [INFO]: 🚀 Server running on port 5000
+2026-01-08 11:12:28 [INFO]: 🚀 Server running on port 5000
+2026-01-08 11:24:55 [INFO]: 🚀 Server running on port 5000
+2026-01-08 11:30:46 [INFO]: 🚀 Server running on port 5000
+2026-01-08 11:31:28 [INFO]: 🚀 Server running on port 5000
