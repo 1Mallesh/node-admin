@@ -1,5 +1,6 @@
 generator client {
-  provider = "prisma-client-js"
+  provider   = "prisma-client-js"
+  engineType = "library"
 }
 
 datasource db {
@@ -8,13 +9,19 @@ datasource db {
 }
 
 model User {
-  id        String   @id @map("_id") @default(auto()) @db.ObjectId
-  firstName String
-  lastName  String
-  email     String   @unique
-  password  String
-  createdAt DateTime @default(now())
+  id           String   @id @map("_id") @default(auto()) @db.ObjectId
+
+  firstName    String
+  lastName     String
+  email        String   @unique
+  password     String
+
+  role         String   @default("USER")
+  refreshToken String?
+
+  createdAt    DateTime @default(now())
 }
+
 model File {
   id        String   @id @map("_id") @default(auto()) @db.ObjectId
   filename  String
@@ -24,3 +31,12 @@ model File {
   createdAt DateTime @default(now())
 }
 
+model Product {
+  id          String   @id @map("_id") @default(auto()) @db.ObjectId
+  title       String
+  description String?
+  price       Float
+  image       String?
+  stock       Int      @default(1)
+  createdAt   DateTime @default(now())
+}

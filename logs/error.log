@@ -4,3 +4,16 @@
 2026-01-07 15:47:26 [ERROR]: Register failed: User already exists
 2026-01-07 15:47:27 [ERROR]: Register DB Error: User already exists
 2026-01-07 15:47:27 [ERROR]: Register failed: User already exists
+2026-01-08 11:54:50 [ERROR]: Register DB Error: User already exists
+2026-01-08 11:54:50 [ERROR]: User already exists
+2026-01-08 11:55:30 [ERROR]: Forgot Password Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2a3e3c47303sm66820645ad.24 - gsmtp
+2026-01-08 11:55:30 [ERROR]: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2a3e3c47303sm66820645ad.24 - gsmtp
+2026-02-12 15:08:44 [ERROR]: Unexpected non-whitespace character after JSON at position 97 (line 1 column 98)
+2026-02-12 15:11:48 [ERROR]: Register DB Error: User already exists
+2026-02-12 15:11:48 [ERROR]: User already exists
+2026-02-12 15:13:47 [ERROR]: Register DB Error: User already exists
+2026-02-12 15:13:47 [ERROR]: User already exists
+2026-02-12 15:20:39 [ERROR]: Register DB Error: User already exists
+2026-02-12 15:20:39 [ERROR]: User already exists
